@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example</title>
+    <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
+</head>
+<body>
+<div id="editor">
+<div class="st-editor">
+    <p>这是一个富文本编辑器，简单高效！</p>
+    <p>你可以通过getHTML()获取编辑器中的所有内容，也可以通过getText()获取纯文本内容</p>
+</div>
+</div>
+    <script src="dist/example.js"></script>
+
+    <script>
+        var editor = new Editor("#editor", {
+            width: 900,
+            height: 650,
+            hiddenModules: [],
+        });
+    </script>
+</body>
+</html>
