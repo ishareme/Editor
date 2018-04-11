@@ -2,10 +2,17 @@
 
 一款富文本编辑器请查收~~  
 
-依赖于 font-awesome
+依赖于 font-awesome 
 
-## 用法
-### 引用：
+> [git](https://github.com/ishareme/ClipImage)
+
+> [npm 还没]()
+
+## Example
+
+[example](http://f2er.meitu.com/hmz/ClipImageDemo/example)
+## Basic Usage
+ 
 ```
 <div id="editor">       
     
@@ -23,6 +30,18 @@ let editor = new Editor("#editor", {
         
 暴露两个方法   editor.getHtml()   and    editor.getText()
 ```
+ 
+ ####  new Editor(id|class|dom,options):
+ ```
+参数：  
+
+width：编辑器的宽  
+
+height：编辑器的高  
+
+hiddenModules：隐藏模块(如果觉得多的话)
+```
+
 模块有: 1、heading(标题)
        2、font(字体和字号)
        3、bold(加粗)
@@ -49,12 +68,6 @@ let editor = new Editor("#editor", {
        24、fullScreen(全屏)
        25、save(保存)       
        
-       
-	
-参数：  
-width：编辑器的宽  
-height：编辑器的高  
-hiddenModules：隐藏模块(如果觉得多的话 )
 
 文档尚为优化
 
