@@ -10,7 +10,7 @@
 
 ## Example
 
-[example](http://f2er.meitu.com/hmz/ClipImageDemo/example)
+[example](http://f2er.meitu.com/hmz/Editor/example/)
 ## Basic Usage
  
 ```
